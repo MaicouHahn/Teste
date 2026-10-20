@@ -6,11 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#2E6B5E"
-    },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "br.org.nossacasa.acolher"
@@ -28,6 +23,11 @@
     "plugins": [
       "expo-font",
       "expo-status-bar"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c1ac649b-1356-4161-9241-f8a7560ca6b4"
+      }
+    }
   }
 }
