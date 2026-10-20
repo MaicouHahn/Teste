@@ -1,0 +1,28 @@
+# dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# nativo (gerado pelo prebuild)
+android/
+ios/
+
+# variáveis de ambiente
+.env
+.env.*
+
+# logs e sistema
+npm-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# editor
+.idea/
+.vscode/*
+!.vscode/extensions.json

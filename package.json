@@ -1,0 +1,32 @@
+{
+  "name": "acolher",
+  "version": "0.2.1",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start -c",
+    "tunnel": "expo start -c --tunnel",
+    "web": "expo start -c --web",
+    "emulador-android": "expo start --android",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo-google-fonts/nunito": "^0.4.1",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-navigation/bottom-tabs": "^7.4.0",
+    "@react-navigation/native": "^7.1.8",
+    "@react-navigation/native-stack": "^7.3.16",
+    "expo": "^58.0.16",
+    "expo-font": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  }
+}
